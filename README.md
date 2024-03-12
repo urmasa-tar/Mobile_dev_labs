@@ -16,4 +16,6 @@
 
 <h6>2) First project</h6>
 
+<p>It's posible to setup design of project in Android studio, example</p>
+<img src= "./img/design.png" >
 
