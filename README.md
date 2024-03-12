@@ -25,3 +25,7 @@
 
 <h5>Background and images</h5>
 
+<p>Example how to add img</p>
+
+<img src = "./img/Add_img.png">
+
