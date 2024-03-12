@@ -21,4 +21,29 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
     }
+
+    @Override
+    public void onClick(View v) {
+        switch (v.getId())
+        {
+            case R.id.bt:
+                if (fl) {                   // Если fl==true
+                    bt.setText("Нажато");
+                    fl = false;          // Переключить флаг
+                } else {
+                    bt.setText("Нажмите");
+                    fl = true;
+                }
+                break;
+            case R.id.plusbt:
+                n++;
+                num= Integer.toString(n);
+                txt.setText(num);
+                break;
+            case R.id.clearbt:
+                n=0;// Сброс счетчика
+                num= Integer.toString(0);
+                txt.setText(num);   // Стирание на экране
+                break;
+        }
 }
