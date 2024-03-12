@@ -19,3 +19,9 @@
 <p>It's posible to setup design of project in Android studio, example</p>
 <img src= "./img/design.png" >
 
+
+
+<h4>Lab_02</h4>
+
+<h5>Background and images</h5>
+
