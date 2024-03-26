@@ -14,5 +14,6 @@
         android:layout_width="match_parent"
         android:layout_height="336dp"
         android:layout_weight="1"
-        app:srcCompat="@drawable/cat" />
+        app:srcCompat="@drawable/cat"
+        android:onClick = "onClick_1"/>
 </LinearLayout>
