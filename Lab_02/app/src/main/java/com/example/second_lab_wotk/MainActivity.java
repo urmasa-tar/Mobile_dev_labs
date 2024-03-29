@@ -15,7 +15,7 @@ import androidx.core.view.WindowInsetsCompat;
 public class MainActivity extends AppCompatActivity {
 
     private MediaPlayer mediaPlayer;
-
+    private MediaPlayer Dog_Sound;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,6 +36,18 @@ public class MainActivity extends AppCompatActivity {
         Toast toast = Toast.makeText(getApplicationContext(),
                 "Покорми кота", Toast.LENGTH_SHORT);
         toast.setGravity(Gravity.BOTTOM, 0, 0);
+        toast.show();
+    }
+
+    public void onClick_2(View view) {
+
+        Dog_Sound = MediaPlayer.create(getApplicationContext(), R.raw.lay);
+
+        Dog_Sound.start();
+
+        Toast toast = Toast.makeText(getApplicationContext(),
+                "Pokormi psa", Toast.LENGTH_SHORT);
+
         toast.show();
     }
 }
