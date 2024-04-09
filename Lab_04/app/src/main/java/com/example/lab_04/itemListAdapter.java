@@ -5,8 +5,11 @@ import android.widget.ArrayAdapter;
 
 import androidx.annotation.NonNull;
 
-public class ItemListAdapter extends ArrayAdapter<Person> {
 
+
+class ItemListAdapter extends ArrayAdapter<Person> {
+    private Context mContext;
+    int mResource;
     public ItemListAdapter(@NonNull Context context, int resource) {
         super(context, resource);
     }
