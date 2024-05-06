@@ -1,4 +1,4 @@
-package com.example.second_lab_wotk;
+package com.example.lab02;
 
 import org.junit.Test;
 

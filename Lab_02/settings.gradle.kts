@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Second_lab_wotk"
+rootProject.name = "lab02"
 include(":app")
  
