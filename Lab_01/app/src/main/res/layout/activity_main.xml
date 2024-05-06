@@ -8,11 +8,14 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/bt"
-        android:layout_width="130dp"
-        android:layout_height="57dp"
-        android:layout_marginStart="144dp"
-        android:layout_marginTop="212dp"
+        android:id="@+id/button"
+        android:layout_width="114dp"
+        android:layout_height="68dp"
+        android:text="Simple button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.164" />
 </androidx.constraintlayout.widget.ConstraintLayout>

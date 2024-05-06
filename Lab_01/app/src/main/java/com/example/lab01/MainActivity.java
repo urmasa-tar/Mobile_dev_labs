@@ -1,9 +1,6 @@
-package com.example.myapplication;
+package com.example.lab01;
 
-import android.annotation.SuppressLint;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -11,18 +8,10 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-
-    Button bt;
-    boolean fl = true;
-
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-
-        bt = findViewById(R.id.bt);
-        bt.setOnClickListener(this);
-
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
@@ -31,18 +20,5 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-    }
-
-    @SuppressLint("SetTextI18n")
-    @Override
-    public void onClick(View v) {
-        if(fl){
-            fl = false;
-            bt.setText("Pushed");
-        }else{
-            fl = true;
-            bt.setText("Push");
-
-        }
     }
 }
