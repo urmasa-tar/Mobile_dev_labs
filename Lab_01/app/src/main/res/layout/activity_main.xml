@@ -13,7 +13,7 @@
         android:layout_height="50dp"
         android:layout_marginTop="118dp"
         android:layout_marginBottom="83dp"
-        android:text="Simple button"
+        android:text="@string/simple_button"
         app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -47,7 +47,7 @@
     <Button
         android:id="@+id/button3"
         android:layout_width="93dp"
-        android:layout_height="44dp"
+        android:layout_height="48dp"
         android:layout_marginBottom="183dp"
         android:text="clear"
         app:layout_constraintBottom_toBottomOf="parent"

@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">lab01</string>
+    <string name="simple_button">Simple button</string>
 </resources>
