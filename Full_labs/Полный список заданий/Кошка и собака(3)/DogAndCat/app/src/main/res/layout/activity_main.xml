@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/catView"
+        android:layout_width="386dp"
+        android:layout_height="291dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        app:srcCompat="@drawable/catimage3"
+        tools:layout_editor_absoluteX="26dp" />
+
+    <Button
+        android:id="@+id/bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Stop"
+        tools:layout_editor_absoluteX="178dp"
+        tools:layout_editor_absoluteY="345dp" />
+
+    <ImageView
+        android:id="@+id/dogView"
+        android:layout_width="386dp"
+        android:layout_height="291dp"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/dogimage"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="399dp" />
+
+
+</LinearLayout>
