@@ -9,13 +9,14 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="141dp"
-        android:layout_height="41dp"
+        android:layout_width="215dp"
+        android:layout_height="30dp"
         android:layout_marginStart="58dp"
         android:layout_marginTop="136dp"
         android:layout_marginBottom="25dp"
         android:text="Цифры числа Пи"
-        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/txOut"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -24,19 +25,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="383dp"
-        android:text="Button"
+        android:text="Add num"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toBottomOf="@+id/txOut"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="Button_Click"/>
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/txOut"
         android:layout_width="331dp"
         android:layout_height="0dp"
         android:layout_marginEnd="19dp"
         android:layout_marginBottom="16dp"
-        android:text="TextView"
+        android:text=""
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
