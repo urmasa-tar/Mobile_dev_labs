@@ -1,4 +1,4 @@
-package com.example.num_of_pi;
+package com.example.pi_number;
 
 import org.junit.Test;
 

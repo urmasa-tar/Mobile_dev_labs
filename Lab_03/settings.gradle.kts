@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Num_of_PI"
+rootProject.name = "Pi_number"
 include(":app")
  

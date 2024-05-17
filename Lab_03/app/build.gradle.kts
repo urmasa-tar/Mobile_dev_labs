@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.num_of_pi"
+    namespace = "com.example.pi_number"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.num_of_pi"
+        applicationId = "com.example.pi_number"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -34,7 +34,6 @@ dependencies {
     implementation(libs.material)
     implementation(libs.activity)
     implementation(libs.constraintlayout)
-    implementation(libs.firebase.inappmessaging)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
