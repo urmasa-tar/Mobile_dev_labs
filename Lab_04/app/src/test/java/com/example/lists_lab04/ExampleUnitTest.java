@@ -1,4 +1,4 @@
-package com.example.lists_proj;
+package com.example.lists_lab04;
 
 import org.junit.Test;
 

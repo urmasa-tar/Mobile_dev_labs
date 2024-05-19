@@ -1,4 +1,4 @@
-package com.example.lists_proj;
+package com.example.lists_lab04;
 
 import android.os.Bundle;
 
@@ -9,6 +9,10 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
+
+    String[] arr_of_str;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

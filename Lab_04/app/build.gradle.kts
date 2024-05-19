@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.lists_proj"
+    namespace = "com.example.lists_lab04"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.lists_proj"
+        applicationId = "com.example.lists_lab04"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
