@@ -2,7 +2,9 @@ package com.example.lists_lab04;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.EditText;
 import android.widget.ListView;
 
 import androidx.activity.EdgeToEdge;
@@ -48,9 +50,27 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+
+
+
     public void OnClickAdd(View view) {
+        EditText eText = (EditText) findViewById(R.id.eDit);
+        String anim = eText.getText().toString();
+        if(!anim.isEmpty() && !animals.contains(anim)) {
+            adapter.add(anim);
+            eText.setText("");
+            adapter.notifyDataSetChanged();
+        }
+
     }
 
     public void OnClickDel(View view) {
+        for(int i=0; i< selectedAnimal.size();i++){
+            adapter.remove(selectedAnimal.get(i));
+        }
+        animList.clearChoices();
+        selectedAnimal.clear();
+        adapter.notifyDataSetChanged();
+
     }
 }
