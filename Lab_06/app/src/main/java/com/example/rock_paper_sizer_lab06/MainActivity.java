@@ -1,4 +1,4 @@
-package com.example.lab_06;
+package com.example.rock_paper_sizer_lab06;
 
 import android.os.Bundle;
 

@@ -1,4 +1,4 @@
-package com.example.lab_06;
+package com.example.rock_paper_sizer_lab06;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.example.lab_06", appContext.getPackageName());
+        assertEquals("com.example.rock_paper_sizer_lab06", appContext.getPackageName());
     }
 }

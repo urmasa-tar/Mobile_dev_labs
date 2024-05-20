@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.lab_06"
+    namespace = "com.example.rock_paper_sizer_lab06"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.lab_06"
+        applicationId = "com.example.rock_paper_sizer_lab06"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
