@@ -10,6 +10,8 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
 
+    public ArrayList<Logo> logo;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,4 +23,14 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
     }
+
+    public  void SetLogoInitial(){
+        logos.add(new Logo(R.drawable.a_bmwlogo, "Германия"));
+        logos.add(new Logo(R.drawable.a_chevroletlogo, "США"));
+        logos.add(new Logo(R.drawable.a_fordlogo, "США"));
+        logos.add(new Logo(R.drawable.a_hundailogo, "Южная Корея"));
+        logos.add(new Logo(R.drawable.a_ladalogo, "Россия"));
+    }
+
 }
+
