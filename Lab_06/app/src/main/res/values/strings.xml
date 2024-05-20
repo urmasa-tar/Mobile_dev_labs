@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Rock_Paper_Sizer_lab06</string>
+    <string name="user">user</string>
+    <string name="computer">computer</string>
 </resources>
