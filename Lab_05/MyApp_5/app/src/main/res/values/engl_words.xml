@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="engl_words">
+        <item>table</item>
+        <item>girl</item>
+        <item>view</item>
+        <item>array</item>
+        <item>handler</item>
+        <item>condition</item>
+        <item>listener</item>
+        <item>event</item>
+        <item>layout</item>
+        <item>touch</item>
+    </string-array>
+</resources>

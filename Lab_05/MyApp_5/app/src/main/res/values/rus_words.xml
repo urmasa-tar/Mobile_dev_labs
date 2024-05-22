@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="rus_words">
+        <item>стол</item>
+        <item>девушка</item>
+        <item>представление</item>
+        <item>массив</item>
+        <item>обработчик</item>
+        <item>условие</item>
+        <item>слушатель</item>
+        <item>событие</item>
+        <item>размещение</item>
+        <item>касание</item>
+    </string-array>
+</resources>

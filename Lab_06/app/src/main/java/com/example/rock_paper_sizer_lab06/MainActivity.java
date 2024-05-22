@@ -134,7 +134,7 @@ public class MainActivity extends AppCompatActivity {
     }
 */
 
-    public void st(View view) {
+    public void st(View view) { // player set
 
         int num = 0;
 

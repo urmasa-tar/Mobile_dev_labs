@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="kind">
+        <item>Вызов на дуэль</item>
+        <item>Быть или не быть</item>
+        <item>Высокоточное оружие</item>
+        <item>Тяжелая атлетика</item>
+    </string-array>
+</resources>

@@ -1,5 +1,7 @@
 package com.example.citates;
 
+import android.widget.ImageView;
+
 public class Person {
 
     public int img;     // Изображение
@@ -12,8 +14,8 @@ public class Person {
         this.ref = ref;
     }
 
-    public int getImg() {
-        return img;
+    public ImageView getImg() {
+        return this.img;
     }
 
     public void setImg(int img) {

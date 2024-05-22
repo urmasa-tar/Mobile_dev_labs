@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="curclip">
+        <item>cat_leopold.mp4</item>
+        <item>udav.mp4</item>
+        <item>wait.mp4</item>
+        <item>weightlifting.mp4</item>
+    </string-array>
+</resources>
